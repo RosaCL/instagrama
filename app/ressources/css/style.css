@@ -1,0 +1,17 @@
+:root{
+    --verde-escuro: #38A827;
+    --verde-medio: #1FFF9F;
+    --verde:#1FFF53;
+    --verde-destaque: #96FF13;
+    --verde-claro:#74FF94;
+    --verde-azulado: #1FFFEB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
