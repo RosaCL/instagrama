@@ -1,0 +1,41 @@
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem 7%;
+    background: var(--verde-medio);
+    color: var(--letra);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header img{
+    height: 10rem;
+}
+header a{
+    font-size: 1.7rem;
+    padding: .5rem 1.5rem;
+    color: var( --letra);    
+}
+header a:hover{
+    color: var(--verde-escuro);
+    font-size: 2.2rem;
+}
+header .navbar a.active{
+    background: var(--verde-claro);
+}
+header .icons #menu-bars{
+    display: none;
+}
+header .icons i{
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
