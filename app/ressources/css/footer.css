@@ -1,5 +1,13 @@
 footer{
     background: var(--cor4);
     box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--box-shadow);
 }
-fo
+
+footer img{
+    margin: 1rem;
+    padding: 1rem;
+}

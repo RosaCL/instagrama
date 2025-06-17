@@ -15,20 +15,7 @@
 </head>
 
 <body>
-    <header>
-        <img src="./ressources/img/Intagramalogo.png" alt="">
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#login">Login</a>
-            <a href="#cadastro">Cadastro</a>
-        </nav>
-        <div class="icons">
-            <i class="fas fa-bars" id="menu-bars"></i>
-        </div>
-    </header>
-<section>
-    
-</section>
+
     <footer>
         <a href="https://github.com/RosaCL"><img src="./ressources/img/costureza.png" alt=""></a>
     </footer>
