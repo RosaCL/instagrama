@@ -4,8 +4,8 @@ header{
     right: 0;
     left: 0;
     padding: 1rem 7%;
-    background: var(--verde-medio);
-    color: var(--letra);
+    background: var(--cor4);
+    color: var(--cor5);
     box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
@@ -18,10 +18,10 @@ header img{
 header a{
     font-size: 1.7rem;
     padding: .5rem 1.5rem;
-    color: var( --letra);    
+    color: var( --cor5);    
 }
 header a:hover{
-    color: var(--verde-escuro);
+    color: var(--cor1);
     font-size: 2.2rem;
 }
 
