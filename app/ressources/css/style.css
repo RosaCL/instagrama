@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root{
-    --verde-escuro: #38A827;
-    --verde-medio: #1FFF9F;
-    --verde:#1FFF53;
-    --verde-destaque: #96FF13;
-    --verde-claro:#74FF94;
-    --verde-azulado: #1FFFEB;
-    --letra: #3F3F3F;
+    --verde-escuro: #649618;
+    --verde-medio: #A6C27A;
+    --verde:#16FA42;
+    --verde-destaque: #40FA16;
+    --verde-claro:#16FA8F;
+    --letra: #181818;
     --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
