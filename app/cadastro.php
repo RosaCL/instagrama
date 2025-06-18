@@ -30,11 +30,16 @@
         <div>
             <form class="box" action="" method="post">
                 <img src="./ressources/img/Intagramalogo.png" alt="">
-                <h3>Realize seu Login</h3>                
-                <input class="box" type="email" name="email" placeholder="Digite seu e-mail">                
-                <input class="box" type="password" name="pass" placeholder="Digite sua senha">               
-                <input class="btn" type="submit" name="login" value="Enviar">
-                <p>Ainda não tem sua conta? <a href="cadastro.php">Realize seu cadastro</a></p>
+                <h3>Realize seu cadastro</h3>
+                <input class="box" type="text" name="name" placeholder="Digite seu nome">
+                <input class="box" type="email" name="email" placeholder="Digite seu e-mail">
+                <input class="box" type="text" name="city" placeholder="Digite sua cidade">
+                <input class="box" type="text" name="country" placeholder="Digite seu País">
+                <input class="box" type="file" name="image" id="">
+                <input class="box" type="password" name="pass" placeholder="Digite sua senha">
+                <input class="box" type="password" name="cpass" placeholder="Confirme sua senha">
+                <input class="btn" type="submit" name="cadastrar" value="Cadastrar">
+                <p>Já tem conta? <a href="login.php"> Faça seu login</a></p>
             </form>
         </div>
 

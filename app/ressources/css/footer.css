@@ -5,6 +5,10 @@ footer{
     align-items: center;
     justify-content: center;
     border-top: var(--box-shadow);
+    width: 100%;
+    text-align: center;
+    padding: 1.8rem 0;
+
 }
 
 footer img{

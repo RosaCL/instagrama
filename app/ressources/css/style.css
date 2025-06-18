@@ -6,7 +6,10 @@
     --cor4:#CCE6AA;
     --cor5: #673906;
     --letra: #181818;
+    --branco:#eee;
+    --border: .1rem solid rgba(0,0,0,.1);
     --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    --delete:#d11212;
 }
 body{
     padding-top: 10rem;
@@ -27,6 +30,107 @@ html{
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
 }
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--cor2);
+}
+.btn, .delete-btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: var(--branco);    
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.btn{
+    background: var(--cor1);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+}
+
+.delete-btn{
+    background: var(--delete);
+}
+.btn:hover, .delete-btn{
+    opacity: .6;
+    transform: scale(1.1);
+}
 section{
     padding: 2rem 9%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    padding-bottom: 3.75;
+
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+div form{
+    background: var(--cor4);
+    border: var(--border);
+    width: 50rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+div form p{
+    font-size: 1.7rem;
+    color: var(--letra);
+}
+div form a{
+    font-size: 1.7rem;
+    color: var(--cor5);
+    text-decoration: underline;
+}
+div form a:hover{
+    color: var(--cor1);
+}
+div form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--cor1);
+    text-align: center;
+}
+div form img{
+    height: 15rem;
+    display: block;
+    margin: 0 auto;
+}
+div form .box{
+    width: 100%;
+    margin: .7rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: .5rem;
+    padding: 1rem 1.2rem;
+    color: var(--cor5);
+    text-transform: none;
+}
+div form .btn, div form .delete-btn{
+    text-align: center;
+    width: 100%;
+    
+    margin: 1.5rem 0;
+}
+div form input{
+    background: var(--branco);
+    color: var(--cor5);
+}
+
+div form .error{
+    margin: 10px 0;
+    display: block;
+    background: var(--cor3);
+    color: var(--cor5);
+    border-radius: .5rem;
+    font-size: 2rem;
 }

@@ -30,7 +30,7 @@
         <div>
             <form class="box" action="" method="post">
                 <img src="./ressources/img/Intagramalogo.png" alt="">
-                <h3>Realize seu Login</h3>                
+                <h3>Realize seu Login</h3>              
                 <input class="box" type="email" name="email" placeholder="Digite seu e-mail">                
                 <input class="box" type="password" name="pass" placeholder="Digite sua senha">               
                 <input class="btn" type="submit" name="login" value="Enviar">
