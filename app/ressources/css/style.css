@@ -62,8 +62,10 @@ section{
     padding: 2rem 9%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
     padding: 1.25rem;
     padding-bottom: 3.75;
 
@@ -73,8 +75,7 @@ div{
     align-items: center;
     justify-content: center;    
 }
-div form{
-    background: var(--cor4);
+div form{    
     border: var(--border);
     width: 50rem;
     padding: 2rem;
@@ -117,9 +118,12 @@ div form .box{
 }
 div form .btn, div form .delete-btn{
     text-align: center;
-    width: 100%;
-    
+    width: 100%;    
     margin: 1.5rem 0;
+}
+div form h5{
+    color: var(--cor5);
+    font-size: 1.6rem;
 }
 div form input{
     background: var(--branco);
@@ -140,5 +144,5 @@ div .card{
     padding: 2rem;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
-    margin: 2rem;
+    margin: 0;
 }
